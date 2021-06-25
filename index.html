@@ -1,34 +1,35 @@
 <!DOCTYPE html>
-<html>
-    <head> <!--Setting title header-->
-    <title>Simple Interest Calculator</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    </head>
-    <div class="maindiv"> <!--Insert webpage components-->
-        <h1>Simple Interest Calculator</h1> <!--Insert title header-->
-        Amount <input type="number"  id="principal">  <br/> <!--Insert Amount Textbox-->
-        Rate <input type="range"  id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate(this.value)">  <br/> 
-        <span id="rate_val"></span> <!--Insert Rate Slider-->
-        No. of Years <select id="years">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-        </select>  <br/> <!--Insert No. of Years Dropdown-->
-        Interest : <span id="result"></span><br> <!--Insert Interest text-->
-        <button onclick="compute()">Compute Interest</button> 
-        <span id="result"> <!--Insert Interest button-->
-        </span>
-        
-        <footer>
-        &#169; This Calculator belongs to Ethan
-        </footer> <!--Insert Footer button-->
-    </div>
-</html>
+	<html>
+	    <head> <!--Setting title header-->
+	    <title>Web App – Simple Interest Calculator</title>
+	    <script src="script.js"></script>
+	    <link rel="stylesheet" href="style.css">
+	    </head>
+	    <div class="maindiv"> <!--Insert webpage components-->
+	        <h1>Simple Interest Calculator</h1> <!--Insert title header-->
+	        Amount <input type="number"  id="principal">  <br/> <!--Insert Amount Textbox-->
+	        Rate <input type="range"  id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate(this.value)">  <br/> 
+	        <span id="rate_val"></span> <!--Insert Rate Slider-->
+	        No. of Years <select id="years">
+	            <option value="1">1</option>
+	            <option value="2">2</option>
+	            <option value="3">3</option>
+	            <option value="4">4</option>
+	            <option value="5">5</option>
+	            <option value="6">6</option>
+	            <option value="7">7</option>
+	            <option value="8">8</option>
+	            <option value="9">9</option>
+	            <option value="10">10</option>
+	        </select>  <br/> <!--Insert No. of Years Dropdown-->
+	        Interest : <span id="result"></span><br> <!--Insert Interest text-->
+	        <button onclick="compute()">Compute Interest</button> 
+	        <span id="result"> <!--Insert Interest button-->
+	        </span>
+	        
+	        <footer>
+	        &#169; This Calculator belongs to Ethan
+	        </footer> <!--Insert Footer button-->
+	    </div>
+	</html>
+
