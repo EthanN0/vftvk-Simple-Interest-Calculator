@@ -1,14 +1,12 @@
-body {background-color:white;font-family:arial;color:black}
-h1{color:grey;font-family:verdana}
-.maindiv {
+body {background-color:white;font-family:arial;color:black} /*setting body attributes*/
+h1{color:grey;font-family:verdana} /*setting attributes for header font*/
+.maindiv { /*setting dimensions of the webpage*/
     margin: auto;
     width: 300px;
     padding: 20px;
     border: 25px;
 }
 
-.highlight {
+.highlight { /*defining highlight function and seting color to yellow:*/
   background-color: yellow;
 }
-
-
