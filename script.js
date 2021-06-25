@@ -25,6 +25,6 @@ function compute()
 
 	function updateRate() // Changes Rate Text when slider moved
 	{
-	    var rateval = document.getElementById("rate").value + "%<br>";
+	    var rateval = document.getElementById("rate").value + "%";
 	    document.getElementById("rate_val").innerText=rateval;
 	}
